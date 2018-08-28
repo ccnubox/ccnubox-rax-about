@@ -9,8 +9,11 @@
   },
   "dependencies": {
     "rax": "^0.6.4",
-    "rax-view": "^0.6.4",
-    "rax-text": "^0.6.4"
+    "rax-button": "^0.6.5",
+    "rax-image": "^0.6.6-1",
+    "rax-link": "^0.6.5",
+    "rax-text": "^0.6.4",
+    "rax-view": "^0.6.4"
   },
   "devDependencies": {
     "rax-scripts": "^0.5.4",

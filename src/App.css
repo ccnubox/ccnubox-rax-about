@@ -1,26 +1,44 @@
 .app {
   flex: 1;
-  justify-content: center;
   align-items: center;
+  width: 750;
+  height: 1200;
+  background-color: #efeff4;
 }
 
-.appHeader {
-  background-color: #222;
-  height: 160;
-  padding: 40;
+.center {
+  align-items: center;
+  justify-content: center;
 }
 
-.appBanner, .appIntro {
-  text-align: center;
+.icon {
+  height: 180;
+  width: 180;
+  margin-top: 240;
 }
 
-.appBanner {
-  font-size: 80;
-  color: white;
+.fontSize {
+  font-size: 34;
 }
 
-.appIntro {
-  margin-top: 40;
-  font-size: 40;
-  line-height: 60;
+.purple {
+  color: #6767fa;
+  margin-top: 60;
+}
+
+.black {
+  color: #434343;
+  margin-top: 320;
+  margin-bottom: 23;
+}
+
+.button {
+  background-color: #feb75a;
+  width: 250;
+  height: 80;
+  border-radius: 12;
+}
+
+.white {
+  color: #ffffff;
 }
