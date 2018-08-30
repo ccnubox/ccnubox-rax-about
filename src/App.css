@@ -32,11 +32,18 @@
   margin-bottom: 23;
 }
 
+.button_join {
+  margin-top: 40;
+}
+
 .button {
   background-color: #feb75a;
-  width: 250;
+  padding-left: 60;
+  padding-right: 60;
   height: 80;
   border-radius: 12;
+  align-items: center;
+  justify-content: center;
 }
 
 .white {
