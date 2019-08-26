@@ -16,7 +16,7 @@ class App extends Component {
           source={require("./assets/icon.png")}
           resizeMode="cover"
         />
-        <Text style={[styles.fontSize, styles.purple]}>华师匣子 2.0</Text>
+        <Text style={[styles.fontSize, styles.purple]}>华师匣子 2.1</Text>
         <Text style={[styles.fontSize, styles.black]}>木犀团队 出品</Text>
         <Button
           style={[styles.button]}
@@ -29,10 +29,26 @@ class App extends Component {
         <Button
           style={[styles.button, styles.button_join]}
           onPress={() => {
-            native.joinQQGroup()
+            native.joinQQGroup("576225292")
           }}
         >
-          <Text style={[styles.white, styles.fontSize]}>加入华师匣子交流群</Text>
+          <Text style={[styles.white, styles.fontSize]}>加入匣子交流群</Text>
+        </Button>
+        <Button
+          style={[styles.button, styles.button_join]}
+          onPress={() => {
+            native.joinQQGroup("763615354")
+          }}
+        >
+          <Text style={[styles.white, styles.fontSize]}>加入木犀招新群</Text>
+        </Button>
+        <Button
+          style={[styles.button, styles.button_join]}
+          onPress={() => {
+            alert("感谢 Weex, Alamofire, SDWebImage, Cache, Gifu, SwiftyJSON, PromiseKit 等开源项目")
+          }}
+        >
+          <Text style={[styles.white, styles.fontSize]}>开源项目</Text>
         </Button>
       </View>
     );
